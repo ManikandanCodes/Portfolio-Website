@@ -64,18 +64,22 @@ section {
 }
 
 /* Projects */
-.project {
-    background: #e9ecef;
-    padding: 1.5rem;
-    margin-top: 1rem;
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.project a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff; /* Bright Blue */
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
 }
 
-.project:hover {
-    transform: scale(1.02);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+.project a:hover {
+    background-color: #0056b3; /* Darker Blue on Hover */
 }
+
 
 /* Contact Button */
 button {
