@@ -64,20 +64,17 @@ section {
 }
 
 /* Projects */
-.project a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #007bff; /* Bright Blue */
-    color: white;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s ease-in-out;
+.project {
+    background: #eef1f6;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-.project a:hover {
-    background-color: #0056b3; /* Darker Blue on Hover */
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: var(--shadow);
 }
 
 
