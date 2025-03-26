@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manikandan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Manikandan's Portfolio</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Hello, I'm <span>Manikandan</span></h1>
+        <p>A Front-End Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+        <h2>About Me</h2>
+        <p>I am a Junior Front-End Developer with a background in Electrical and Electronics Engineering. I have skills in HTML, CSS, JavaScript, and React, and I am passionate about creating dynamic and responsive web applications.</p>
+        <p>Work Experience: Former Engineering Trainee at NLCIL's Thermal Power Station-II, where I worked on monitoring and maintaining cooling systems, generators, transformers, and breakers.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="reveal">
+        <h2>Education</h2>
+        <p><strong>Bachelor's Degree in Electrical and Electronics Engineering</strong></p>
+        <p>Government College of Engineering, Thanjavur</p>
+        <p>Class of 2023 | CGPA: 8.38/10</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Mkart - E-commerce Website</h3>
+            <p>An e-commerce website that provides an interactive shopping experience with a clean UI.</p>
+            <a href="https://manikandancodes.github.io/E-COMMERCE-WEBSITE/" target="_blank">View Project</a>
+            <a href="https://github.com/ManikandanCodes/E-COMMERCE-WEBSITE.git" target="_blank">Source Code</a>
+        </div>
+        <div class="project">
+            <h3>To-Do List Website</h3>
+            <p>A simple to-do list application built using JavaScript, allowing users to add, delete, and mark tasks as complete.</p>
+            <a href="https://manikandancodes.github.io/Todo-List/" target="_blank">View Project</a>
+            <a href="https://github.com/ManikandanCodes/Todo-List.git" target="_blank">Source Code</a>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio website showcasing my skills, experience, and projects.</p>
+            <a href="https://your-live-portfolio-link.com" target="_blank">View Project</a>
+            <a href="https://github.com/manikandan/portfolio" target="_blank">Source Code</a>
+        </div>
+        <div class="project">
+            <h3>Books World</h3>
+            <p>A web application designed for book lovers to explore and review books.</p>
+            <a href="https://manikandancodes.github.io/Books-World/" target="_blank">View Project</a>
+            <a href="https://github.com/ManikandanCodes/Books-World.git" target="_blank">Source Code</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <h2>Contact</h2>
+        <p>Mail Id: <a href="mailto:iammanikandan.engineer@gmail.com">iammanikandan.engineer@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/manikandananbalagan/" target="_blank">My LinkedIn - Manikandan</a></p>
+        <p>GitHub: <a href="https://github.com/ManikandanCodes" target="_blank">github.com/ManikandanCodes</a></p>
+        <button onclick="showAlert()">Say Hello</button>
+        <br><br>
+        <a href="resume.pdf" target="_blank" class="resume-button">View Resume</a>
+        <a href="resume.pdf" download class="resume-button">Download Resume</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Manikandan. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showAlert() {
+            alert('Hello! Feel free to reach out to me.');
+        }
+        
+        ScrollReveal().reveal('.reveal', {
+            duration: 1000,
+            origin: 'bottom',
+            distance: '50px',
+            easing: 'ease-in-out',
+            reset: true
+        });
+    </script>
+</body>
+</html>
